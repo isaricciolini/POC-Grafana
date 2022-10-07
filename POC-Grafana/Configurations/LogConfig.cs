@@ -19,8 +19,6 @@ namespace POC_Grafana.Configurations
 
             ILoggerFactory loggerFactory = serviceProvider.GetService<ILoggerFactory>();
             ILogger logger = loggerFactory.CreateLogger("POC-Grafana");
-
-            logger.LogInformation("Testando POC");
             TeleconLog.SetNivel(NivelLog.Information);
 
             return services;
