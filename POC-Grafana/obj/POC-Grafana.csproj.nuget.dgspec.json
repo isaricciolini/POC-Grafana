@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\isabelle.ricciolini\\Documents\\POC-Grafana\\POC-Grafana\\POC-Grafana.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\isabelle.ricciolini\\Documents\\POC-Grafana\\POC-Grafana\\POC-Grafana.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\isabelle.ricciolini\\Documents\\POC-Grafana\\POC-Grafana\\POC-Grafana.csproj",
+        "projectName": "POC-Grafana",
+        "projectPath": "C:\\Users\\isabelle.ricciolini\\Documents\\POC-Grafana\\POC-Grafana\\POC-Grafana.csproj",
+        "packagesPath": "C:\\Users\\isabelle.ricciolini\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\isabelle.ricciolini\\Documents\\POC-Grafana\\POC-Grafana\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\isabelle.ricciolini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://servicos.teleconsistemas.com.br/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Spring.Core": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "TeleconSistemas.Log": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
