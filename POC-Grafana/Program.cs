@@ -60,11 +60,12 @@ public static class Program
         //if (!isProduction)
         //{
             var credentials = new BasicAuthCredentials(
-                "https://logs-prod3.grafana.net",
-                "298716",
-                "eyJrIjoiYjUyYjk1YWZmMzU1ZTA0NjI0N2FmMjFkZGRlNTQ4MjgwNDIxZjZlZiIsIm4iOiJhZG1pbiIsImlkIjo2MTQ5NDZ9"
+                "[link]",
+                "[key]",
+                "[token]"
                 );
 
+        // Adiciona ao grafana apenas logs com a palavra GRAFANA no início
             builder.AddLoki(
                 credentials,
                 logEvent => logEvent.RenderMessage().StartsWith("GRAFANA", StringComparison.InvariantCultureIgnoreCase)

@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\isabelle.ricciolini\\Documents\\POC-Grafana\\POC-Grafana\\POC-Grafana.csproj": {}
+    "C:\\Users\\Ideapad320\\Documents\\Projetos\\POC-Grafana\\POC-Grafana\\POC-Grafana.csproj": {}
   },
   "projects": {
-    "C:\\Users\\isabelle.ricciolini\\Documents\\POC-Grafana\\POC-Grafana\\POC-Grafana.csproj": {
+    "C:\\Users\\Ideapad320\\Documents\\Projetos\\POC-Grafana\\POC-Grafana\\POC-Grafana.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isabelle.ricciolini\\Documents\\POC-Grafana\\POC-Grafana\\POC-Grafana.csproj",
+        "projectUniqueName": "C:\\Users\\Ideapad320\\Documents\\Projetos\\POC-Grafana\\POC-Grafana\\POC-Grafana.csproj",
         "projectName": "POC-Grafana",
-        "projectPath": "C:\\Users\\isabelle.ricciolini\\Documents\\POC-Grafana\\POC-Grafana\\POC-Grafana.csproj",
-        "packagesPath": "C:\\Users\\isabelle.ricciolini\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isabelle.ricciolini\\Documents\\POC-Grafana\\POC-Grafana\\obj\\",
+        "projectPath": "C:\\Users\\Ideapad320\\Documents\\Projetos\\POC-Grafana\\POC-Grafana\\POC-Grafana.csproj",
+        "packagesPath": "C:\\Users\\Ideapad320\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ideapad320\\Documents\\Projetos\\POC-Grafana\\POC-Grafana\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\isabelle.ricciolini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ideapad320\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
