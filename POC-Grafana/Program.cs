@@ -55,7 +55,7 @@ public static class Program
         builder.AddPrefixoComNivelDeLogExpecifico("/HubHardware", Serilog.Events.LogEventLevel.Verbose);
         builder.AddOverrideNivelMinimoDeLog("Hangfire", Serilog.Events.LogEventLevel.Warning);
         builder.AddConsole(SystemConsoleTheme.Literate);
-        builder.AddIp("53246");
+        builder.AddIp("Adiciona label com número de IP");
 
         //if (!isProduction)
         //{
